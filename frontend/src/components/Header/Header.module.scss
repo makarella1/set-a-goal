@@ -1,0 +1,19 @@
+.header {
+  @apply flex justify-between items-center py-5 mb-[60px] border-b border-[#e6e6e6];
+}
+
+.list {
+  @apply flex justify-between items-center;
+}
+
+.item {
+  @apply ml-5;
+}
+
+.link {
+  @apply flex items-center transition-colors hover:text-[#777];
+}
+
+.icon {
+  @apply mr-[5px];
+}

@@ -1,0 +1,7 @@
+.button {
+  @apply flex items-center justify-center bg-black font-bold text-white text-[16px] text-center cursor-pointer py-[10px] px-5 border border-black rounded-[5px];
+}
+
+.buttonBlock {
+  @apply w-full mb-5;
+}
