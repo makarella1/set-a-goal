@@ -1,12 +1,12 @@
 import styles from './Button.module.scss';
 
-const Button = ({ children, block, type = 'button' }) => {
+const Button = ({ children = null, block = false, onClick = () => {} }) => {
   return (
     <button
       className={
         block ? `${styles.button} ${styles.buttonBlock}` : `${styles.button}`
       }
-      type={type}
+      onClick={onClick}
     >
       {children}
     </button>

@@ -3,8 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import Container from './components/Container/Container';
 import Header from './components/Header/Header';
 import Dashboard from './pages/Dashboard';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -17,6 +20,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </Container>
+      <ToastContainer />
     </>
   );
 };
