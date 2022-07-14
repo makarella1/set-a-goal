@@ -1,5 +1,5 @@
 .header {
-  @apply flex justify-between items-center py-5 mb-[60px] border-b border-[#e6e6e6];
+  @apply flex justify-between border-[#e6e6e6] items-center mb-[60px] border-b py-5;
 }
 
 .list {
@@ -11,9 +11,9 @@
 }
 
 .link {
-  @apply flex items-center transition-colors hover:text-[#777];
+  @apply hover:text-[#777] flex items-center transition-colors;
 }
 
 .icon {
-  @apply mr-[5px];
+  @apply mr-1;
 }

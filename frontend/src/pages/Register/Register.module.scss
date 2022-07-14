@@ -2,7 +2,7 @@
   @apply text-[2rem] font-bold mb-[50px] px-5;
 
   p {
-    @apply text-[#828282];
+    @apply text-[#828282] font-bold;
   }
 }
 
@@ -15,7 +15,7 @@
 }
 
 .formGroup {
-  @apply mb-[10px];
+  @apply mb-3;
 
   input,
   textarea,

@@ -3,15 +3,15 @@
 }
 
 .formGroup {
-  @apply mb-[10px];
+  @apply mb-3;
 
   input,
   textarea,
   select {
-    @apply w-full p-[10px] border border-[#e6e6e6] rounded-[5px] mb-[10px] focus:outline-none;
+    @apply w-full p-[10px] border border-[#e6e6e6] rounded-[5px] mb-3 focus:outline-none;
   }
 
   label {
-    @apply block text-left mb-[5px] ml-[3px];
+    @apply block text-left mb-[5px] ml-1;
   }
 }
