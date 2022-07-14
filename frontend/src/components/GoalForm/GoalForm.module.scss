@@ -1,0 +1,17 @@
+.form {
+  @apply w-3/4 mx-auto;
+}
+
+.formGroup {
+  @apply mb-[10px];
+
+  input,
+  textarea,
+  select {
+    @apply w-full p-[10px] border border-[#e6e6e6] rounded-[5px] mb-[10px] focus:outline-none;
+  }
+
+  label {
+    @apply block text-left mb-[5px] ml-[3px];
+  }
+}

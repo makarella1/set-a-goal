@@ -10,5 +10,10 @@ body {
 h1,
 h2,
 h3 {
-  @apply font-semibold mb-10;
+  @apply font-semibold mb-[10px];
+}
+
+[type='button'],
+[type='submit'] {
+  @apply bg-black;
 }

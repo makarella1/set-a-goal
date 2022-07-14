@@ -86,7 +86,9 @@ const Login = () => {
               onChange={changeHandler}
             />
           </div>
-          <Button block>Login</Button>
+          <Button type="submit" block>
+            Login
+          </Button>
         </form>
       </section>
     </>

@@ -1,0 +1,15 @@
+.goal {
+  @apply bg-[#f4f4f4] my-[10px] pt-10 px-[10px] relative;
+
+  h2 {
+    @apply text-xl;
+  }
+}
+
+.close {
+  @apply absolute top-2 right-3 cursor-pointer;
+}
+
+.edit {
+  @apply absolute top-2 left-3 cursor-pointer;
+}
